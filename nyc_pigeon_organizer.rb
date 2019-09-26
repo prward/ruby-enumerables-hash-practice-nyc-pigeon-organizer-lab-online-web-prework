@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |color_gender_lives, value|
     value.each do |stats, all_names|
       all_names.each do |name|
-        pigeon_list[:name] ||= {}
+        
       end
        if pigeon_list[name][color_gender_lives] == nil
           pigeon_list[name][color_gender_lives] = []
@@ -12,5 +12,5 @@ def nyc_pigeon_organizer(data)
       end
     end 
   end
-  pigeon_list
+ 
 
