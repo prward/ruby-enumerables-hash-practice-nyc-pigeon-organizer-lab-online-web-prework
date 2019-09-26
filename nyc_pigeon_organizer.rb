@@ -5,4 +5,5 @@ def nyc_pigeon_organizer(data)
       all_names.each do |name|
         pigeon_list[:name] ||= {}
       end
+      
 end
